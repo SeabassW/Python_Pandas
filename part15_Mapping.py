@@ -78,6 +78,6 @@ HPI_data = pd.read_pickle('fiddy_states.pickle')
 HPI = pd.read_pickle('HPI.pickle')
 HPI_bench = HPI_Benchmark()
 
-
-HPI = HPI_data.join([m30, US_unemployment, US_GDP, sp500])
-print(HPI.corr())
+print(HPI)
+# HPI = HPI_data.join([m30, US_unemployment, US_GDP, sp500])
+# print(HPI.corr())
